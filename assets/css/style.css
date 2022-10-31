@@ -1,4 +1,11 @@
-/*===== VIDEO ONE =====*/
+p {
+  margin: 0;
+}
+.navbar {
+  font-weight: 600;
+  font-size : 1.4rem;
+}
+
 .video-one {
     background-color: var(--light-2);
     padding-top: 120px;
