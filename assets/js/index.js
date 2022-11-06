@@ -9,20 +9,24 @@ const language = {
     switchLang: "ID",
     dd1: "Bahasa Inggris",
     dd2: "Bahasa Indonesia",
-    hero1: "Apa itu ",
-    hero2: "Apa yang kami lakukan, dan kenapa dunia membutuhkan kita?",
+    hero1: "Tidak perlu khawatir ada",
+    hero2: "Solusi modern untuk traveler di seluruh dunia",
     hero3: "Mulai sekarang",
-    blog1: "Apa yang kami lakukan?",
-    blog2: "Khawatir dengna bahasa?",
-    blog3: `"Language barrier" menghantui pikiran Anda, sementara Anda tidak punya waktu untuk mempelajari bahasa mereka`,
-    blog4: "Gak tau harus tanya kemana?",
-    blog5: "Tidak ada yang Anda kenal, sementara Anda tidak tahu apa-apa tentang tempat-tempat baru itu.",
-    blog6: "Tidak masalah, ada Kami",
-    blog7: "Sebuah platform yang menyatukan wisatawan di seluruh dunia dengan pemandu wisata yang terpercaya dan kompeten.",
-    blog8: "Kenali kami lebih jauh dengan",
-    blog9: "Video Company Profile Kami",
-    lang1: "Testimoni Kami",
-    lang2: "Guidy adalah platform yang bagus bagi mereka yang ingin mulai bepergian keliling dunia tetapi tidak tahu harus mulai dari mana. Ini membantu kami menemukan pemandu wisata terbaik untuk perjalanan kami sehingga kami dapat menikmati perjalanan kami tanpa khawatir tentang hambatan bahasa atau culture shock apa pun."
+    blog1: "Apa masalahnya?",
+    blog2: "Menjadi Jembatan antara traveller di seluruh dunia dan pemandu wisata yang terpercaya",
+    blog3: `Menyediakan Pemandu wisata yang terpercaya dan tersertifikasi`,
+    blog4: "Membuat pengalaman wisata Anda menjadi lebih menyenangkanm",
+    blog5: "Kelebihan Kami",
+    blog6: "Antarmuka yang ramah pengguna",
+    blog7: "platform memiliki antarmuka yang ramah pengguna, memastikan pengguna memiliki pengalaman yang baik saat menggunakannya.",
+    blog8: "Pemandu Wisata Terpercaya",
+    blog9: "Kami jamin pemandu wisata kami terpercaya dan bersertifikat, jadi tidak perlu Khawatir",
+    lang1: "Skala Global",
+    lang2: "Kami memiliki lingkungan mendunia di setiap tujuan populer. Ke mana pun Anda pergi, kami akan siap melayani.",
+    lang3: "Kenapa kami disini?",
+    lang4: "Kami di sini untuk menghubungkan wisatawan dengan pemandu mereka jika mereka tidak tahu apa yang harus dilakukan. Kami ingin semua orang dapat mewujudkan impian mereka berkeliling dunia tanpa harus khawatir dengan hambatan sosial. Jadi jika semua orang ingin menjadi seorang traveller, mereka bisa menjadi seorang traveller.",
+    lang5: "Tim Kami",
+    lang6: "Mereka yang membuat semua ini mungkin",
 },
 };
 
@@ -48,7 +52,10 @@ if (window.location.hash) {
     blog9.textContent = language.id.blog9;
     lang1.textContent = language.id.lang1;
     lang2.textContent = language.id.lang2;
-    
+    lang3.textContent = language.id.lang3;
+    lang4.textContent = language.id.lang4;
+    lang5.textContent = language.id.lang5;
+    lang6.textContent = language.id.lang6;
   }
 }
 
