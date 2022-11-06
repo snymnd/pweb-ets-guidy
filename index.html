@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <title>Home</title>
@@ -38,22 +39,29 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-xl-center">
-            <li class="nav-item">
-              <a class="nav-link text-black" aria-current="page" href="/">Home</a>
+            <li class="nav-item ">
+              <a class="nav-link text-dark" id="nav_home" aria-current="page" href="/#id">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About Us</a>
+              <a class="nav-link" id="nav_about" href="/about.html#id">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/service.html">Features</a>
+              <a class="nav-link" id="nav_features" href="/service.html#id">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/blog.html">Blog</a>
+              <a class="nav-link" href="/blog.html#id">Blog</a>
             </li>
           </ul>
-          <div class="">
-            <button class="btn btn-dark mr-3" type="submit">Log in</button>
-            <button class="btn btn-outline-success" type="submit">Sign up</button>
+          <div>
+            <button class="btn btn-dark mr-3" id="log_in" type="submit">Log in</button>
+            <span class="dropdown">
+              <a class="btn btn-outline-success dropdown-toggle" id="switch_lang" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#en" id="drop_down_1" data-reload>English</a></li>
+                <li><a class="dropdown-item" href="#id" id="drop_down_2" data-reload>Indonesian</a></li>
+              </ul>
+            </span>
           </div>
         </div>
       </div>
@@ -65,10 +73,10 @@
         <div class="container my-5">
           <div class="row">
             <div class="col-lg-5 d-flex flex-column justify-content-center pt-4 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-              <h1 class="mb-5">No Worry with <img src="assets/img/logo/guidy.png" alt="" /></h1>
-              <h3>A modern solution for travellers around the world</h3>
+              <h1 class="mb-5" id="hero1">No Worry with</h1><img src="assets/img/logo/guidy.png" alt="" />
+              <h3 id="hero2">A modern solution for travellers around the world</h3>
               <div class="d-flex justify-content-center justify-content-lg-start">
-                <a href="#problem" class="btn btn-light">Get Started</a>
+                <a href="#problem" class="btn btn-light" id="hero3">Get Started</a>
               </div>
             </div>
             <div class="col-lg-6 offset-lg-1 d-flex justify-content-end w-fit order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
@@ -80,15 +88,15 @@
       <!-- End Hero -->
 
       <section id="problem" class="" style="margin: 20vh 0">
-        <h1 class="text-center w-50 mx-auto text-secondary text-sm-center">What's Matter?</h1>
+        <h1 id="blog1" class="text-center w-50 mx-auto text-secondary text-sm-center">What's Matter?</h1>
         <div class="container mt-5">
           <div class="row">
             <div class="col-lg-5 offset-lg-1 order-1 order-lg-1 hero-img" data-aos="zoom-in" data-aos-delay="200">
               <img src="assets/img/beranda/beranda-problem1.png" class="img-fluid animated" alt="" />
             </div>
             <div class="text-center text-lg-start offset-lg-1 col-lg-4 d-flex flex-column justify-content-center pt-4 order-2 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-              <h1>Worried about Language?</h1>
-              <p class="fs-5 text-secondary">"Language barrier" haunting your mind, while you don't have time to learn their languages.</p>
+              <h1 id="blog2">Worried about Language?</h1>
+              <p class="fs-5 text-secondary" id="blog3">"Language barrier" haunting your mind, while you don't have time to learn their languages.</p>
             </div>
           </div>
         </div>
@@ -99,8 +107,8 @@
               <img src="assets/img/beranda/beranda-problem2.png" class="img-fluid animated" alt="" />
             </div>
             <div class="text-center text-lg-start offset-lg-1 col-lg-4 d-flex flex-column justify-content-center pt-4 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-              <h1>Don't know where and how to ask?</h1>
-              <p class="fs-5 text-secondary">Don't have anybody got your back while you have no idea about those new places.</p>
+              <h1 id="blog4">Don't know where and how to ask?</h1>
+              <p class="fs-5 text-secondary" id="blog5">Don't have anybody got your back while you have no idea about those new places.</p>
             </div>
           </div>
         </div>
@@ -109,11 +117,11 @@
       <section id="introduce" class="d-flex align-items-center my-5" style="background-color: #40514e">
         <div class="container my-5 d-flex flex-row">
           <div class="d-flex flex-column align-content-center text-center justify-content-center text-white py-4 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <span class="fs-4" style="color: #ffffff">No Problem, we got you.</span>
+            <span class="fs-4" style="color: #ffffff" id="blog6">No Problem, we got you.</span>
             <div class="my-5">
               <img src="assets/img/logo/guidy.png" height="100" alt="Logo Guidy" />
             </div>
-            <h3 class="w-75 mx-auto">A platform that brings together tourists across the world with trusted and competent tour guides.</h3>
+            <h3 class="w-75 mx-auto" id="blog7">A platform that brings together tourists across the world with trusted and competent tour guides.</h3>
           </div>
         </div>
       </section>
@@ -123,8 +131,8 @@
           <div class="row justify-content-center">
             <div class="col-lg-6 col-md-10">
               <div class="video-title text-center">
-                <h5>Let's know us better with our</h5>
-                <h2>Company Profille Videos</h2>
+                <h5 id="blog8">Let's know us better with our</h5>
+                <h2 id="blog9">Company Profille Videos</h2>
               </div>
             </div>
           </div>
@@ -144,10 +152,10 @@
 
       <section class="my-5">
         <div class="mb-5">
-          <h1 class="mx-auto border-bottom border-4" style="width: fit-content">Our Testimonial</h1>
+          <h1 class="mx-auto border-bottom border-4" style="width: fit-content" id="lang1">Our Testimonial</h1>
         </div>
         <div class="col-8 offset-2 rounded-3 border border-3 border-secondary d-flex flex-column justify-content-center p-4">
-          <blockquote class="w-75 fs-5 text-center mx-auto fst-italic">
+          <blockquote id="lang2" class="w-75 fs-5 text-center mx-auto fst-italic">
             "Guidy is a great platform for those who want to start travelling around the world but don't know where to start. It helps us find the best tour guide for our trip so that we can enjoy our trip without worrying about the
             language barrier or any culture shock.""
           </blockquote>
@@ -213,6 +221,7 @@
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+    <script src="assets/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
     <script>
       //========= glightbox
@@ -224,6 +233,7 @@
         autoplayVideos: true,
       });
     </script>
-    <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
+
   </body>
 </html>
