@@ -30,21 +30,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-xl-center">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Home</a>
+              <a class="nav-link" id="nav_home" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About Us</a>
+              <a class="nav-link" id="nav_about" href="/about.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="/service.html">Features</a>
+              <a class="nav-link text-dark" id="nav_features" href="/service.html">Features</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/blog.html">Blog</a>
             </li>
           </ul>
-          <div class="">
-            <button class="btn btn-dark mr-3" type="submit">Log in</button>
-            <button class="btn btn-outline-success" type="submit">Sign up</button>
+          <div>
+            <button class="btn btn-dark mr-3" id="log_in" type="submit">Log in</button>
+            <span class="dropdown">
+              <a class="btn btn-outline-success dropdown-toggle" id="switch_lang" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#en" id="drop_down_1" data-reload>English</a></li>
+                <li><a class="dropdown-item" href="#id" id="drop_down_2" data-reload>Indonesian</a></li>
+              </ul>
+            </span>
           </div>
         </div>
       </div>
@@ -57,9 +64,9 @@
           <div class="row">
             <div class="col-lg-5 d-flex flex-column justify-content-center pt-4 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
               <h1>GUIDY SERVICES</h1>
-              <h2>See the most great and most complete service from us</h2>
+              <h2 id="hero_1">See the most great and most complete service from us</h2>
               <div class="mt-4 d-flex justify-content-center justify-content-lg-start">
-                <a href="#service1" class="fw-semibold btn btn-light">Check It Now</a>
+                <a href="#service1" class="fw-semibold btn btn-light" id="hero_2">Check It Now</a>
               </div>
             </div>
             <div class="col-lg-6 offset-lg-1 d-flex justify-content-end w-fit order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
@@ -79,10 +86,10 @@
             </div>
           </div>
           <div class="col-lg-4 col-12 pt-5 pt-lg-0 d-flex flex-column justify-content-center align-items-center">
-            <h2 class="col-6 col-lg-9 fw-semibold">Reliable Tour Guide</h2>
-            <div class="col-6 col-lg-9 fs-5">We provide tour guides who have qualified and experienced skills in the world of tourism</div>
+            <h2 class="col-6 col-lg-9 fw-semibold" id="text_1">Reliable Tour Guide</h2>
+            <div class="col-6 col-lg-9 fs-5" id="text_2">We provide tour guides who have qualified and experienced skills in the world of tourism</div>
             <div class="mt-4 ms-sm-1 ps-sm-5 d-flex align-self-lg-start">
-              <a href="#service2" class="fw-semibold btn btn-success">Next</a>
+              <a href="#service2" class="fw-semibold btn btn-success" id="next_1">Next</a>
             </div>
           </div>
         </div>
@@ -93,10 +100,10 @@
       <section class="py-5 mb-3 container-fluid" id="service2" style="background-color: #40514e">
         <div class="row d-flex flex-column flex-lg-row">
           <div class="d-none col-lg-5 col-12 py-3 pt-lg-0 ms-lg-5 text-white d-lg-flex flex-column justify-content-center align-items-lg-end align-items-center">
-            <h2 class="col-6 col-lg-9 fw-semibold">Trustworthy Translator</h2>
-            <div class="col-6 col-lg-9 fs-5">In addition to tour guides, we also provide trusted translators to help you get a satisfying travel experience</div>
+            <h2 class="col-6 col-lg-9 fw-semibold" id="text_3">Trustworthy Translator</h2>
+            <div class="col-6 col-lg-9 fs-5" id="text_4">In addition to tour guides, we also provide trusted translators to help you get a satisfying travel experience</div>
             <div class="mt-4 ps-2 d-flex align-self-start" style="margin-left: 8em">
-              <a href="#service3" class="fw-semibold btn btn-light">Next</a>
+              <a href="#service3" class="fw-semibold btn btn-light" id="next_2">Next</a>
             </div>
           </div>
           <div class="col-lg-5 col-12 d-flex justify-content-center">
@@ -105,10 +112,10 @@
             </div>
           </div>
           <div class="d-lg-none col-lg-5 col-12 py-3 pt-lg-0 ms-lg-5 text-white d-flex flex-column justify-content-center align-items-lg-end align-items-center">
-            <h2 class="col-6 fw-semibold">Trustworthy Translator</h2>
-            <div class="col-6 fs-5">In addition to tour guides, we also provide trusted translators to help you get a satisfying travel experience</div>
+            <h2 class="col-6 fw-semibold" id="text_5">Trustworthy Translator</h2>
+            <div class="col-6 fs-5" id="text_6">In addition to tour guides, we also provide trusted translators to help you get a satisfying travel experience</div>
             <div class="mt-4 d-flex">
-              <a href="#service3" class="fw-semibold btn btn-light">Next</a>
+              <a href="#service3" class="fw-semibold btn btn-light" id="next_3">Next</a>
             </div>
           </div>
         </div>
@@ -124,10 +131,10 @@
             </div>
           </div>
           <div class="col-lg-4 col-12 pt-5 pt-lg-0 d-flex flex-column justify-content-center align-items-center">
-            <h2 class="col-6 col-lg-9 fw-semibold">Connected All Over the World</h2>
-            <div class="col-6 col-lg-9 fs-5">Our tour guides are located in more than 70 tourist destinations from all over the world</div>
+            <h2 class="col-6 col-lg-9 fw-semibold" id="text_7">Connected All Over the World</h2>
+            <div class="col-6 col-lg-9 fs-5" id="text_8">Our tour guides are located in more than 70 tourist destinations from all over the world</div>
             <div class="mt-4 ms-sm-1 ps-sm-5 d-flex align-self-lg-start">
-              <a href="#guides" class="fw-semibold btn btn-success">Next</a>
+              <a href="#guides" class="fw-semibold btn btn-success" id="next_4">Next</a>
             </div>
           </div>
         </div>
@@ -138,7 +145,7 @@
         <div class="row mb-4 d-flex justify-content-center">
           <div class="col-lg-4 col-9 text-center">
             <div class="col-11">
-              <h3 class="text-light text-uppercase fw-bold">find your guide around the world</h3>
+              <h3 class="text-light text-uppercase fw-bold" id="text_9">find your guide around the world</h3>
             </div>
           </div>
         </div>
@@ -242,5 +249,120 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      const dataReload = document.querySelectorAll("[data-reload]");
+
+      const language = {
+        en: {
+          home: "Home",
+          about: "About Us",
+          features: "Features",
+          login: "Log in",
+          switchLang: "EN",
+          dd1: "English",
+          dd2: "Indonesian",
+          hero1: "See the most great and most complete service from us",
+          hero2: "Check It Now",
+          text1: "Reliable Tour Guide",
+          text2: "We provide tour guides who have qualified and experienced skills in the world of tourism",
+          text3: "Trustworthy Translator",
+          text4: "In addition to tour guides, we also provide trusted translators to help you get a satisfying travel experience",
+          text5: "Trustworthy Translator",
+          text6: "In addition to tour guides, we also provide trusted translators to help you get a satisfying travel experience",
+          text7: "Connected All Over the World",
+          text8: "Our tour guides are located in more than 70 tourist destinations from all over the world",
+          text9: "FIND YOUR GUIDE AROUND THE WORLD",
+          next1: "Next",
+          next2: "Next",
+          next3: "Next",
+          next4: "Next",
+        },
+        id: {
+          home: "Beranda",
+          about: "Tentang Kami",
+          features: "Fitur",
+          login: "Masuk",
+          switchLang: "ID",
+          dd1: "Bahasa Inggris",
+          dd2: "Bahasa Indonesia",
+          hero1: "Lihat layanan paling hebat dan terlengkap dari kami",
+          hero2: "Periksa sekarang",
+          text1: "Pemandu Wisata Andal",
+          text2: "Kami menyediakan pemandu wisata yang memiliki skill mumpuni dan berpengalaman dalam dunia pariwisata",
+          text3: "Penerjemah Tepercaya",
+          text4: "Selain pemandu wisata, kami juga menyediakan penerjemah terpercaya untuk membantu Anda mendapatkan pengalaman perjalanan yang memuaskan",
+          text5: "Penerjemah Tepercaya",
+          text6: "Selain pemandu wisata, kami juga menyediakan penerjemah terpercaya untuk membantu Anda mendapatkan pengalaman perjalanan yang memuaskan",
+          text7: "Terhubung di Seluruh Dunia",
+          text8: "Pemandu wisata kami berlokasi di lebih dari 70 tujuan wisata dari seluruh dunia",
+          text9: "TEMUKAN PEMANDU WISATA ANDA DI SELURUH DUNIA",
+          next1: "Selanjutnya",
+          next2: "Selanjutnya",
+          next3: "Selanjutnya",
+          next4: "Selanjutnya",
+        },
+      };
+
+      if (window.location.hash) {
+        if (window.location.hash === "#en") {
+          nav_home.textContent = language.en.home;
+          nav_about.textContent = language.en.about;
+          nav_features.textContent = language.en.features;
+          log_in.textContent = language.en.login;
+          switch_lang.textContent = language.en.switchLang;
+          drop_down_1.textContent = language.en.dd1;
+          drop_down_2.textContent = language.en.dd2;
+          hero_1.textContent = language.en.hero1;
+          hero_2.textContent = language.en.hero2;
+          text_1.textContent = language.en.text1;
+          text_2.textContent = language.en.text2;
+          text_3.textContent = language.en.text3;
+          text_4.textContent = language.en.text4;
+          text_5.textContent = language.en.text5;
+          text_6.textContent = language.en.text6;
+          text_7.textContent = language.en.text7;
+          text_8.textContent = language.en.text8;
+          text_9.textContent = language.en.text9;
+          next_1.textContent = language.en.next1;
+          next_2.textContent = language.en.next2;
+          next_3.textContent = language.en.next3;
+          next_4.textContent = language.en.next4;
+        } else if (window.location.hash === "#id") {
+          nav_home.textContent = language.id.home;
+          nav_about.textContent = language.id.about;
+          nav_features.textContent = language.id.features;
+          log_in.textContent = language.id.login;
+          switch_lang.textContent = language.id.switchLang;
+          drop_down_1.textContent = language.id.dd1;
+          drop_down_2.textContent = language.id.dd2;
+          hero_1.textContent = language.id.hero1;
+          hero_2.textContent = language.id.hero2;
+          text_1.textContent = language.id.text1;
+          text_2.textContent = language.id.text2;
+          text_3.textContent = language.id.text3;
+          text_4.textContent = language.id.text4;
+          text_5.textContent = language.id.text5;
+          text_6.textContent = language.id.text6;
+          text_7.textContent = language.id.text7;
+          text_8.textContent = language.id.text8;
+          text_9.textContent = language.id.text9;
+          next_1.textContent = language.id.next1;
+          next_2.textContent = language.id.next2;
+          next_3.textContent = language.id.next3;
+          next_4.textContent = language.id.next4;
+        }
+      }
+
+      dataReload[0].onclick = function () {
+        window.location.hash = "en";
+        location.reload();
+      };
+
+      dataReload[1].onclick = function () {
+        window.location.hash = "id";
+        location.reload();
+      };
+    </script>
   </body>
 </html>
