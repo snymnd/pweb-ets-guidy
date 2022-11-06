@@ -48,8 +48,8 @@
               <a class="btn btn-outline-success dropdown-toggle" id="switch_lang" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
 
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#en" data-reload>English</a></li>
-                <li><a class="dropdown-item" href="#id" data-reload>Indonesian</a></li>
+                <li><a class="dropdown-item" href="#en" id="drop_down_1" data-reload>English</a></li>
+                <li><a class="dropdown-item" href="#id" id="drop_down_2" data-reload>Indonesian</a></li>
               </ul>
             </span>
           </div>
@@ -198,6 +198,8 @@
           features: "Features",
           login: "Log in",
           switchLang: "EN",
+          dd1: "English",
+          dd2: "Indonesian",
           hero1: "Read blogs and articles about our company",
           hero2: "See Blogs",
           blog1: "Guidy's Journey",
@@ -217,6 +219,8 @@
           features: "Fitur",
           login: "Masuk",
           switchLang: "ID",
+          dd1: "Bahasa Inggris",
+          dd2: "Bahasa Indonesia",
           hero1: "Baca blog dan artikel tentang perusahaan kami",
           hero2: "Lihat Blog",
           blog1: "Perjalanan Guidy",
@@ -239,6 +243,8 @@
           nav_features.textContent = language.en.features;
           log_in.textContent = language.en.login;
           switch_lang.textContent = language.en.switchLang;
+          drop_down_1.textContent = language.en.dd1;
+          drop_down_2.textContent = language.en.dd2;
           hero_1.textContent = language.en.hero1;
           hero_2.textContent = language.en.hero2;
           blog_1.textContent = language.en.blog1;
@@ -257,6 +263,8 @@
           nav_features.textContent = language.id.features;
           log_in.textContent = language.id.login;
           switch_lang.textContent = language.id.switchLang;
+          drop_down_1.textContent = language.id.dd1;
+          drop_down_2.textContent = language.id.dd2;
           hero_1.textContent = language.id.hero1;
           hero_2.textContent = language.id.hero2;
           blog_1.textContent = language.id.blog1;
